@@ -1,0 +1,28 @@
+{
+    "name": "@zetta-forum/db",
+    "version": "0.1.0",
+    "description": "",
+    "main": "src/index.js",
+    "author": "ZettaForum",
+    "homepage": "https://github.com/ZettaForum/db/#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ZettaForum/db.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ZettaForum/db/issues"
+    },
+    "dependencies": {
+        "@zetta-projects/zettastore": "git+https://github.com/zetta-projects/ZettaStore.git",
+        "ipfs": "^0.33.0",
+        "orbit-db": "^0.20.0-rc.5"
+    },
+    "devDependencies": {
+        "@types/ipfs": "git+https://github.com/survirtual/types-ipfs.git",
+        "@types/orbit-db": "git+https://github.com/zetta-wiki/orbit-db-types.git"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "license": "MIT"
+}
