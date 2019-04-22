@@ -136,7 +136,7 @@ class Comments {
         const objsTree = []
         objsMap.forEach((entry) => {
             const parent = entry.parent
-            if (!parent || !objsMap.get(parent)) {
+            if (!parent) {
                 entry.parent = null
                 return objsTree.push(entry)
             }
