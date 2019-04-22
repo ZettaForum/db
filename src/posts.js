@@ -90,9 +90,9 @@ class Posts {
             title,
             content,
             category,
-            tags,
+            tags: safeArray(tags),
             commentsDBAddr: await this.dbutils.newCommentsDB(),
-            votesDBAddr: await this.dbutils.newVotesDB()
+            votesDBAddr: await this.dbutils.newVotesDB(),
         }
 
         return this.db.add(payload)

@@ -172,7 +172,9 @@ class DBUtils {
         /** @type {import("@zetta-projects/zettastore").ZettaStore<any>} */
         // @ts-ignore
         const ZettaStore = require("@zetta-projects/zettastore")
-        OrbitDB.addDatabaseType(ZettaStore.type, ZettaStore)
+        if (!OrbitDB.databaseTypes.includes(ZettaStore.type)) {
+            OrbitDB.addDatabaseType(ZettaStore.type, ZettaStore)
+        }
     }
 
 }

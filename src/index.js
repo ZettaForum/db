@@ -70,6 +70,10 @@ class ZettaForumDB {
         return Comments
     }
 
+    static get defaultIPFS() {
+        return defaultIPFS
+    }
+
     async InitDB() {
         const orbitdb = this.orbitdb
         const { postsDBAddr, creator, administrators } = this.options
