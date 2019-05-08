@@ -15,11 +15,11 @@
     "dependencies": {
         "@zetta-projects/zettastore": "git+https://github.com/zetta-projects/ZettaStore.git",
         "ipfs": "^0.33.0",
-        "orbit-db": "^0.20.0-rc.5"
+        "orbit-db": "^0.20.1"
     },
     "devDependencies": {
         "@types/ipfs": "git+https://github.com/survirtual/types-ipfs.git",
-        "@types/orbit-db": "git+https://github.com/zetta-wiki/orbit-db-types.git"
+        "@types/orbit-db": "git+https://github.com/orbitdb/orbit-db-types.git"
     },
     "scripts": {
         "test": "mocha"

@@ -25,7 +25,7 @@ interface CommentDEL {
 
 interface CommentEntry extends Entry {
     /** 评论 ID */
-    cid: CommentID;
+    hash: CommentID;
 
     /** 作者的用户公钥 */
     key: UserKey;
@@ -34,7 +34,7 @@ interface CommentEntry extends Entry {
 }
 
 interface CommentObj extends CommentPayload {
-    /** 评论 ID (CommentEntry.cid) */
+    /** 评论 ID (CommentEntry.hash) */
     id: CommentID;
 
     /** 顺序 (基于 Lamport Clock) */

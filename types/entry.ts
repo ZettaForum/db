@@ -20,7 +20,7 @@ type VotesDBAddr = string;
 
 interface Entry {
     /** ID */
-    cid: string;
+    hash: string;
 
     /** 用户公钥 */
     key: UserKey;

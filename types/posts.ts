@@ -37,7 +37,7 @@ interface PostDEL {
 
 interface PostEntry extends Entry {
     /** 帖子 ID */
-    cid: PostID;
+    hash: PostID;
 
     /** 发布者的用户公钥 */
     key: UserKey;
@@ -46,7 +46,7 @@ interface PostEntry extends Entry {
 }
 
 interface PostObj extends PostPayload {
-    /** 帖子 ID (PostEntry.cid) */
+    /** 帖子 ID (PostEntry.hash) */
     id: PostID;
 
     /** 帖子发布者的用户公钥 (PostEntry.key) */

@@ -24,7 +24,7 @@ class Posts {
      * @returns {PostObj}
      */
     _parsePostEntry(entry) {
-        const postid = entry.cid
+        const postid = entry.hash
         const payload = entry.payload.value
         const author = entry.key
         return Object.assign({ id: postid, author }, payload)

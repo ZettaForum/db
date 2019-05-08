@@ -90,7 +90,7 @@ class Comments {
      * @returns {CommentObj}
      */
     static _parseCommentEntry(entry) {
-        const commentID = entry.cid
+        const commentID = entry.hash
         const payload = entry.payload.value
         const author = entry.key
         const order = entry.clock.time
