@@ -21,6 +21,10 @@
         "@types/ipfs": "git+https://github.com/survirtual/types-ipfs.git",
         "@types/orbit-db": "git+https://github.com/orbitdb/orbit-db-types.git"
     },
+    "resolutions": {
+        "leveldown": "5.0.3",
+        "orbit-db": "^0.20.1"
+    },
     "scripts": {
         "test": "mocha"
     },
