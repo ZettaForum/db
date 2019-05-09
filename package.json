@@ -23,7 +23,8 @@
     },
     "resolutions": {
         "leveldown": "5.0.3",
-        "orbit-db": "^0.20.1"
+        "orbit-db": "^0.20.1",
+        "tiny-secp256k1": "git+https://github.com/Xmader/tiny-secp256k1.git"
     },
     "scripts": {
         "test": "mocha"
