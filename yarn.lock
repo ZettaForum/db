@@ -4767,10 +4767,9 @@ qs@^6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
-rabin@^1.6.0:
+rabin@^1.6.0, "rabin@git+https://github.com/Xmader/rabin.git":
   version "1.6.0"
-  resolved "https://registry.yarnpkg.com/rabin/-/rabin-1.6.0.tgz#e05690b13056f08c80098e3ad71b90530038e355"
-  integrity sha1-4FaQsTBW8IyACY461xuQUwA441U=
+  resolved "git+https://github.com/Xmader/rabin.git#ab90f93c17af6288dfcc4f4db656df5650cf3db3"
   dependencies:
     bindings "^1.2.1"
     bl "^1.0.0"
